@@ -436,3 +436,18 @@ line-height: 100%;
   padding-bottom: 71px;
   padding-top: 100px;
 }
+
+@media (max-width: 299px) {
+  .main-navigation {
+    display:none;
+  }
+
+  .header-wrapper {
+    display: flex;
+    column-gap: 260px;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
